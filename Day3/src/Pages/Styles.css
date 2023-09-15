@@ -1,0 +1,60 @@
+ .login-page1 {
+    display: flex;
+  }
+  h4{
+    margin-left: 32%;
+    font-weight: 500;
+    font-style: italic;
+    color: black;
+  }
+  .login1 {
+    width: 30%;
+    background: #FFF;
+    padding: 70px;
+    background-image: linear-gradient(to right, rgba(203, 199, 199, 0.63), rgb(241, 161, 161));
+  }
+  .form-login1 {
+    padding-top: 7%;
+  }
+  .form-login1 label {  
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  .input-email,
+  .input-password {
+    background: #ededed;
+    border-radius: 25px;
+    margin: 6px 0 9px 0;
+    padding: 10px;
+    display: flex;
+  }
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+  }
+  button {
+    width: 100%;
+    border-radius: 25px;
+    padding: 14px;
+    background: #1e25aa;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  button:hover {
+    opacity: 0.9;
+  }
+  .background {
+    width: 85%;
+    height: 100vh;
+    background:url('Login.jpeg');
+    background-size: cover;
+    display: flex; 
+  }

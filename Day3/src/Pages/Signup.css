@@ -1,0 +1,61 @@
+.login-page2 {
+    display: flex;
+  }
+  p{
+    margin-left: 25%;
+    font-weight: 500;
+    font-style: italic;
+    color: black;
+  }
+  .login2 {
+    width: 30%;
+    background: #FFF;
+    padding: 50px;
+    
+    background-image: linear-gradient(to bottom,rgb(236, 207, 207),rgb(130, 108, 108));
+    height:86vh;
+  }
+  .form-login2 label {  
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  .input-email,
+  .input-password {
+    background: #ededed;
+    border-radius: 25px;
+    margin: px 0 9px 0;
+    padding: 10px;
+    display: flex;
+  }
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="text"] {
+    width: 100%;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+  }
+  button {
+    width: 100%;
+    border-radius: 25px;
+    padding: 14px;
+    background: #1e25aa;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  button:hover {
+    opacity: 0.9;
+  }
+  .background1 {
+    width: 85%;
+    height: 100vh;
+    background:url('Register.jpeg');
+    background-size: cover;
+    display: flex; 
+  }
