@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.leftbar{
+    position: absolute;
+    height: 92%;
+    width:10rex;
+    background-color: rgb(163, 163, 237);
+    margin-top: 55px;
+}
+.leftbar-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+margin-left: -15%;
+background-color: rgb(163, 163, 237);
+}
+.leftbarbtn{
+    background-color: rgb(163, 163, 237);
+
+}
+.css-tzssek-MuiSvgIcon-root{
+    color:black;
+}

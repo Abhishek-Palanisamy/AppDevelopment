@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    position: fixed;
+    height: 8%;
+    width: 100%;
+    top: 0;
+    background-color: rgb(163, 163, 237);
+}
+.navbar-container{
+    position: fixed;
+    height: 8%;
+    width: 100%;
+    top: 0;
+    background-color: rgb(163, 163, 237);
+}
+
+.css-tzssek-MuiSvgIcon-root{
+    color:black;
+}
+
