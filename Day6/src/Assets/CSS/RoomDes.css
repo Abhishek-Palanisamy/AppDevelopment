@@ -1,0 +1,95 @@
+
+.containerdes{
+  display: flex;
+    margin-left: 7%;
+    
+}
+.desimgs{
+    height: 100%;
+    width: 55%;
+}
+.descontent{
+    margin-top: 1%;
+}
+.descontent p{
+    color: rgb(187, 187, 187);
+    margin-top: 4px;
+    font-size: large;
+}
+.amenities{
+    display: flex;
+}
+.descontent h3{
+    font-weight: 300;
+}
+div.card {
+    margin-left: 85%;
+    margin-block: -106px;
+    width: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+  div.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+  }
+  
+  div.container {
+    padding: 10px;
+  }
+  .checkin{
+    display: flex;
+
+  }
+  .checkin1{
+    padding: 5px;
+    display: flex;
+    font-size: larger;
+    margin-left: 2%;
+    box-shadow: 2px 2px 2px 2px black;
+  }
+
+  .checkout{
+    display: flex;
+
+  }
+  .checkout1{
+    padding: 5px;
+    display: flex;
+    font-size: larger;
+    margin-left: 3%;
+    box-shadow: 2px 3px 2px 2px rgb(168, 166, 166);
+  }
+  .billing{
+    margin-top: 1%;
+    margin-left: 9%;
+    border: 1px solid black;
+    width: 25%;
+    padding: 1%;
+    
+  }
+  .linebill{
+    margin-top: 1%;
+    border: 1px solid black;
+    width: 54vh;
+    margin-inline: -15px;
+
+  }
+
+  .billing b{
+    font-size: 30px;
+  }
+  .billing span{
+    font-size: large;
+    color: rgb(84, 82, 82);
+    text-decoration: line-through;
+  }
+  .datefill{
+    display: flex;
+  }
+  .datefill button{
+    width: 29%;
+  }

@@ -1,0 +1,25 @@
+.dash{
+    margin-left: 7%;
+}
+.nor{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 5%;
+    margin-bottom: 3%;
+    
+}
+.bor{
+    box-shadow: 4px 3px 2px 2px rgb(74, 6, 74); 
+    padding: 14px;
+    border-radius: 9px;
+    margin-left: 3%;
+    margin-block: -40px;
+    width: 25%;
+}
+.bar{
+    font-size: 24px;
+    margin-block: -40px;
+    margin-bottom: 3%;
+    display: flex;
+}
