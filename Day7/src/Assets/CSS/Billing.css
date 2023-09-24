@@ -1,0 +1,120 @@
+/* Billing.css */
+
+.bill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin-bottom: 3%;
+  }
+  
+  .bill-container {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 450px;
+    height: 63vh;
+  }
+  
+  .billform {
+    text-align: center;
+  }
+  
+  .billhead {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .billhead h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+
+  }
+
+.list1
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background-color: #fffafa;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color: #cb9999;
+}
+.button1
+{
+    position: absolute;
+    border-radius: 10px;
+    background: #0e0d0d;
+    width: 120px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    color: #fefafa;
+    left: 100px;
+    margin-left: -80px;
+}
+.button2
+{
+    position: absolute;
+    border-radius: 10px;
+    background: #0e0d0d;
+    width: 110px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    color: #fefafa;
+    margin-left: 60%;
+}
+
+.success-popup1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; 
+}
+
+.success-popup-content1 {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.success-popup-content1 h3 {
+  font-size: 18px;
+  color: black;
+  margin-bottom: -9px;
+  margin-top: 1px;
+  margin-right: 2px;
+  
+}
