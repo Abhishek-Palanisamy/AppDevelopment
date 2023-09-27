@@ -1,0 +1,102 @@
+.login-page1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .login1 {
+    width: 25%;
+    background: #FFF;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    margin-right: auto; /* Center the container by pushing it to the left */
+  }
+  
+  .form-login1 {
+    padding-top: 7%;
+  }
+  
+  .form-login1 label {
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  
+  .input-email,
+  .input-password {
+    background: #ededed;
+    border-radius: 25px;
+    margin: 6px 0 9px 0;
+    padding: 10px;
+    display: flex;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    border-radius: 25px;
+    padding: 14px;
+    background: #1e25aa;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  h5{
+    padding-top: 6%;
+    color: black;
+  }
+  
+  /* Background image for screens larger than 768px */
+  @media (min-width: 769px) {
+    .login-page1 {
+      background: url('../Images/Loginbg.jpg');
+      background-size: cover;
+    }
+    
+    .login1 {
+      background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to the login form */
+      backdrop-filter: blur(15px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .login-page1 {
+      background: url('../Images/Loginbg.jpg');
+      background-size: cover;
+    }
+    
+    .login1 {
+      width: 80%;
+      padding: 20px;
+      margin: 0 auto; /* Center the container for smaller screens */
+      background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to the login form */
+    }
+    .input-email,
+    .input-password {
+      margin: 6px 0;
+    }
+    
+    button {
+      margin-top: 20px;
+    }
+  }
+  .icon{
+  margin-inline: 2px;
+  margin-block:-5px ;
+  }
