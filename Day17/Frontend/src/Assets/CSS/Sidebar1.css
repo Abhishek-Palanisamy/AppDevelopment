@@ -1,0 +1,15 @@
+.side{
+    position: absolute;
+    background-color:  rgb(55,55,55);
+    height:123vh;
+    width: 6rem;
+    left: 0;
+    margin-left: -10px; 
+    margin-top: -2%;
+}
+.leftbarbtn{
+    background-color: rgb(55,55,55);
+}
+.css-tzssek-MuiSvgIcon-root{
+    color:white;
+}

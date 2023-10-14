@@ -1,0 +1,49 @@
+.dash{
+    margin-left: 7%;
+    margin-right: 2%;
+}
+.nor{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 5%;
+    margin-bottom: 1%;
+    
+}
+.bor{
+    box-shadow: 4px 3px 2px 2px rgb(74, 6, 74); 
+    padding: 14px;
+    border-radius: 9px;
+    margin-left: 3%;
+    margin-block: -40px;
+    width: 25%;
+}
+.bar{
+    font-size: 24px;
+    margin-bottom: 3%;
+display: flex;
+}
+.piechart{
+    margin-top: 5%;
+    margin-inline: 100px;
+    margin-bottom: 1%;
+}
+.event1{
+    width: 19%;
+    padding: 1%;
+    margin-bottom: 2%;
+    margin-left: 6%;
+    margin-top: 4%;
+    box-shadow: 2px 2px 2px 2px rgb(80, 0, 80);
+    border-radius: 6px;
+}
+.event1 p{
+    font-size: 17px;
+}
+.event h3{
+    font-size: 24px;
+}
+.event{
+    display: flex;
+    justify-content: space-around;
+}

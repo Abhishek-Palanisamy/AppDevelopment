@@ -1,0 +1,19 @@
+nav {
+    background: rgb(55,55,55);
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  }
+  #navbar {
+    display: flex;
+    justify-content: end;
+  }
+  #navbar li {
+    padding: 0 20px;
+  }
+  #navbar li a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  
