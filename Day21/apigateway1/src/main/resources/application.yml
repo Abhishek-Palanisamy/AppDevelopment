@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+  
+        - id: BOOKING
+          uri: lb://BOOKING-SERVER
+          predicates:
+            - Path=/booking/**
+            
+        - id: HOTELMANAGEMENT
+          uri: lb://ABNA-SERVER
+          predicates:
+            - Path=/auth/**
+            
+        - id: CONTACT
+          uri: lb://ANA-SERVER
+          predicates:
+            - Path=/auth/**
+             
+      
