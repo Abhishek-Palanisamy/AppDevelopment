@@ -1,0 +1,93 @@
+
+.bill1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin-bottom: 21px;
+  }
+  
+  .bill-container1 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 450px;
+    height: 75vh;
+  }
+  
+  .billform1 {
+    text-align: center;
+  }
+  
+  .billhead1 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .billhead1 h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+
+
+.list1
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background-color: #fffafa;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.button1
+{
+    position: absolute;
+    border-radius: 10px;
+    background: #0e0d0d;
+    width: 120px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    color: #fefafa;
+    left: 100px;
+    margin-left: -80px;
+}
+.button2
+{
+    position: absolute;
+    border-radius: 10px;
+    background: #0e0d0d;
+    width: 110px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    color: #fefafa;
+    margin-left: 15%;
+    margin-block: -28px;
+    cursor: pointer;
+}
+
+
