@@ -1,0 +1,428 @@
+.containerrd {
+  margin-top: 4%;
+  margin-left: 10%;
+  display: flex;
+  margin-bottom: 1%;
+}
+
+.descontent {
+  padding: 4%;
+  border: 1px solid black;
+  width: 50vh;
+}
+.descontent h3 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+font-size: 20px;
+font-family:serif;
+}
+
+.descontent h6 {
+  color: rgb(89, 88, 88);
+}
+
+.descontent p {
+  font-size: 20px;
+  margin-left: 3%;
+  font-weight: bold;
+}
+
+.descontent b {
+  font-size: 30px;
+}
+
+.descontent span {
+  color: rgb(151, 150, 150);
+  text-decoration: line-through;
+}
+
+.descontent button {
+  width: 30%;
+  font-size: small;
+  padding: 2%;
+  margin-left: 10vh;
+}
+
+#main {
+  margin-top: 3%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 15%;
+}
+
+.flex_row {
+  display: flex;
+  align-items:start;
+  flex-direction: column;
+  margin-block: -56%;
+  
+}
+
+
+
+.clicked {
+  border: 2px solid black;
+}
+
+.descontent button{
+  margin-top: 2%;
+  margin-left: 30%;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+
+.containercc {
+  margin-left: 10%;
+  margin-block: -17%;
+  margin-bottom: 0%;
+  
+}
+.containercc h2{
+  margin-top: 6%;
+  font-size: 25px;
+  
+}
+.containercc p{
+  font-size: 13px;
+  
+}
+
+.containercc h4 {
+  color: rgb(127, 126, 126);
+  font-size: 17px;
+}
+
+div.card {
+  margin-left: 39%;
+  margin-block: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+div.header {
+  background-color: #4caf50;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+}
+
+div.container {
+  padding: 10px;
+}
+
+.checkin {
+  display: flex;
+}
+
+.checkin1 {
+  padding: 5px;
+  display: flex;
+  font-size: 17px;
+  margin-left: 0%;
+}
+
+.checkout {
+  display: flex;
+}
+
+.checkout1 {
+  padding: 5px;
+  display: flex;
+  font-size: 16px;
+  margin-left: 1%;
+  margin-bottom: 10px;
+}
+
+.containercc h3 {
+  margin-top: 1%;
+  font-size: 20px;
+  margin-bottom: 1%;
+}
+
+.hotelpolicy h3 {
+  font-size: 20px;
+  margin-bottom: 1%;
+}
+
+
+.linebill {
+  margin-left: 10vh;
+  margin-top: 2%;
+  border: 1px solid black;
+  width: 50vh;
+  margin-inline: -15px;
+}
+
+.descontent1 {
+  margin-inline: 6%;
+  margin-block-start: 1%;
+  margin-top: 4%;
+}
+
+.policy {
+  margin-top: 32%;
+  margin-inline: -30%;
+  font-size: 18px;
+}
+.policy li{
+
+  font-size: 15px;
+  list-style:disc;
+}
+
+.descontent .calculate {
+  margin-left: 50%;
+  margin-block: -6%;
+}
+
+.descontent .count {
+  
+  border-color: rgb(104, 103, 103);
+  border-width: 2px;
+  height: 27px;
+  width: 35%;
+  margin-block: -90%;
+  margin-left: 10%;
+}
+.descontent .count1 {
+  
+  border-color: rgb(104, 103, 103);
+  border-width: 2px;
+  height: 27px;
+  padding: 3px;
+  width: 35%;
+  font-size: 13px;
+  margin-left: 5%;
+}
+
+.descontent span {
+  margin-left: 3%;
+font-size: 13px;
+}
+.descontent h6{
+  margin-block: -1px;
+font-size: 13px;
+margin-bottom: 3%;
+}
+.descontent label{
+  margin-block: -1px;
+font-size: 13px;
+margin-bottom: 3%;
+}
+.descontent input{
+font-size: 13px;
+margin-bottom: 3%;
+font-weight: lighter;
+border-radius: 9px;
+margin-left: 3%;
+}
+.policy h3{
+  font-weight: bold;
+  margin-bottom: 2%;
+  margin-inline: -2rem;
+  font-family:cursive;
+  font-size: larger;
+}
+.thumbnail{
+  display: flex;
+  margin-top: 20px;
+}
+.btn12 {
+   background-color: rgb(255, 73, 6);
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.success-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-popup-content {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 9px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.success-popup-content h3 {
+  font-size: 22px;
+  color: black;
+  margin-bottom: -9px;
+  margin-top: 1px;
+  margin-right: 2px;
+  
+}
+
+/* Responsive CSS */
+
+/* For 720px */
+@media screen and (max-width: 768px) {
+  .containerrd {
+    flex-direction: column;
+    align-items: center;
+    margin-inline: -10px;
+  }
+
+  .descontent {
+    width: 50vh;
+    margin-right: 19rem;
+    margin-top: 13rem;
+    margin-left: 15rem;
+  }
+  .descontent span{
+    margin-left: 3%;
+    font-size: small;
+  }
+  .descontent b{
+    margin-left: 3%;
+    font-size: large;
+  }
+  .descontent p{
+    margin-left: 4rem;
+    font-size: large;
+  }
+  .descontent h3{
+    font-size: medium;
+  }
+  .descontent button{
+    width: 36%;
+    font-size: 15px;
+  }
+  .hotelpolicy{
+    margin-bottom: 13%;
+  }
+
+
+
+  .flex_row {
+    margin-block-start: 0%;
+    margin-left: 9rem;
+    display: flex;
+    flex-direction: row;    
+  }
+  #main{
+    
+    margin-top: 4rem;
+  }
+
+
+  .booknow {
+    font-size: 50px;
+  }
+
+  .containercc {
+    margin-left: 20%;
+    margin-block: -10%;
+    margin-top: 5%;
+  }
+
+  .containercc h4 {
+    
+    font-size: 12px;
+  }
+
+  .containercc h3 {
+    font-size: 18px;
+  }
+
+  .containercc li {
+    font-size: 15px;
+  }
+
+  .linebill {
+    width: 50vh;
+    margin-inline: -27px;
+  }
+  .containercc h2{
+    font-size: 20px;
+  }
+
+  .policy {
+    margin-block: -1rem;
+  
+  }
+  .policy li{
+    font-size: medium;
+    margin-left: 14rem;
+  }
+  .policy h3{
+    margin-left: 11rem;
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 1%;
+    font-family:cursive;
+  }
+  .descontent1{
+    margin-top: 27rem;
+  }
+  .thumbnail{
+    margin-left: 4%;
+  }
+ 
+}
+
+/* For 480px */
+@media screen and (max-width: 480px) {
+  .descontent {
+    margin-block: -25rem;
+    width: 60vh;
+    margin-left: 20rem;
+  }
+
+  #main {
+    margin-left: 2%;
+  }
+
+  .flex_row {
+    margin-block: 0%;
+    margin-left: 17rem;
+  }
+
+  .booknow {
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  .containercc {
+    margin-left: 2%;
+    margin-block: -2%;
+  }
+
+  .containercc h4 {
+    font-size: 14px;
+  }
+
+  .containercc h3 {
+    font-size: 16px;
+  }
+
+  .hotelpolicy h3 {
+    font-size: 16px;
+  }
+
+  .containercc li {
+    font-size: 13px;
+  }
+
+  .linebill {
+    margin-left: vh;
+    width: 59vh;
+  }
+
+  .policy {
+    margin-top: 18%;
+  }
+}

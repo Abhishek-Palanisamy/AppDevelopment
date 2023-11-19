@@ -1,0 +1,48 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+}
+
+.nav__item {
+  margin-right: -15rem;
+  font-size: 30px;
+}
+
+.nav1 {
+  position: fixed; /* Fix the navbar at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background: rgb(0, 33, 65);
+  transition: all 0.3s ease; /* Add transition for smooth scrolling */
+  z-index: 1000; /* Ensure the navbar is on top of other elements */
+}
+
+
+
+
+@media screen and (max-width:480px) {
+  .nav__menu{
+    margin-right: 2rem;
+  }
+
+}
+@media screen and (max-width: 768px) {
+.nav1{
+  height: 9%;
+}
+.name{
+  margin-right: 7rem;
+}
+
+}
+
+

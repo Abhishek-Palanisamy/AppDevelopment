@@ -1,0 +1,298 @@
+
+body::-webkit-scrollbar {
+  display: none;
+}
+.delicon{
+  font-size: large;
+  cursor: pointer;
+}
+hr {
+  border: 0.5px solid rgb(235, 235, 235);
+  margin: 0 20px;
+}
+.bk{
+  margin-block: -15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bkinvoice{
+  margin-left: 70px;
+  font-size: 15px;
+}
+.bkid{
+  margin-left: 20px;
+  font-size: 15px;
+  
+}
+.space1{
+  margin-top: 5%;
+  margin-left: 1%;
+}
+.space{
+  background: rgb(225, 225, 225);
+  display: inline;
+  border-radius: 20px;
+  font-size: 15px;
+
+ 
+}
+.container-bookingdetails {
+  width: 60%;
+  background: white;
+  margin: 20px auto;
+  position: relative;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px 20px 20px;
+  z-index: -10; /* Adjusted z-index */
+}
+
+.custom-content{
+  font-size: 50px;
+  margin-top: 2%;
+  margin-bottom: 16.2%;
+  margin-left: 10%;
+  
+
+}
+
+.odetails-1 {
+  margin-left: 6%;
+  background: rgb(225, 225, 225);
+  padding: 7px 5px;
+  display: inline;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+}
+.icons{
+  float: right;
+  margin-right: 1%;
+  cursor: pointer;
+}
+.odetails-1 p { 
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 8px;
+}
+.odetails-1 b {
+  display: inline-block;
+  font-size: 15px;
+}
+
+.odetails-1 p:nth-child(2) {
+  color: blue;
+}
+
+
+
+.card-container {
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+
+.card {
+  height: 160px;
+  width: 96%;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.card .img {
+  width: 150px;
+  height: 150px;
+  display: inline;
+}
+
+.card .img img {
+  width: 140px;
+  height: 140px;
+}
+
+.card .parent {
+  position: absolute;
+  left: 150px;
+  top: 0;
+}
+
+.card .content {
+  position: relative;
+  width: 240px;
+  display: inline-block;
+  padding: 10px 10px;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  vertical-align: top;
+}
+
+
+
+.card .content .details-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-inline-start: -69px;
+}
+
+.card .content .details-2 p {
+  display: inline;
+  color: gray;
+  font-size: 15px;
+  margin-top: 2%;
+}
+
+.card .content .details-2 b {
+  color: gray;
+  font-size: 15px;
+  margin-inline-start: -23px;
+  margin-top: 3%;
+  font-weight: 900;
+
+}
+
+
+
+
+
+.status {
+display:inline-flex;
+flex-direction: row;
+}
+
+.status .sec1 {
+  margin-left: 30px;
+  display: block;
+  margin-top: 32px;
+}
+
+.status .sec1 p {
+  color: gray;
+  font-size: 15px;
+  margin-top: 10%;
+  font-weight: bolder;
+}
+
+.status .sec1 h2 {
+  color: #644dbd;
+  font-size: 16px;
+  margin-top: 6%;
+}
+
+.status .sec2 {
+  display: inline;
+  margin-left: 50px;
+  margin-top: 33px;
+
+}
+
+.status .sec2 p {
+  color: gray;
+  font-size: 15px;
+  margin-top: 10%;
+}
+
+.status .sec2 h3 {
+  color: #644dbd;
+  font-size: 16px;
+  margin-top: 10%;
+letter-spacing: 1px;
+}
+
+.card-bottom {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 8px;
+  transform: translateX(-50%);
+}
+
+.card-bottom button {
+  background: none;
+  outline: none;
+  border: none;
+  border-right: 2px solid rgb(235, 235, 235);
+  padding: 10px 14px;
+  color: gray;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 20px;
+  display: inline;
+}
+
+.card-bottom h1 {
+  font-size: 15px;
+  display: inline;
+  float: right;
+  opacity: 88%;
+  padding: 8px 10px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 30px 10px 50px;
+  }
+
+  .heading button p {
+    display: none;
+  }
+
+  .heading button {
+    padding: 18px;
+    border-radius: 50%;
+  }
+
+  .heading button i {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card .content .details-1 {
+    width: 160px;
+  }
+
+  .status {
+    display: none;
+  }
+
+  .card.toggle {
+    height: 300px;
+    transform-origin: top;
+    transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  .card.toggle .status {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    text-align: start;
+  }
+
+  .card .content .details-2 {
+    margin-top: 20px;
+  }
+
+  .card .content .details-2 p:nth-child(3) {
+    padding: 0;
+    display: block;
+    margin-top: 5px;
+  }
+
+  .odetails-2 {
+    display: block;
+  }
+
+  header p {
+    padding: 0 0 0 40px;
+  }
+
+  .container {
+    margin-top: 70px;
+  }
+}

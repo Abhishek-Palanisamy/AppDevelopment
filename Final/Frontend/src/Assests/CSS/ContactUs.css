@@ -1,0 +1,177 @@
+.sec-title-style1 {
+    position: relative;
+    display: block;
+    margin-top: -9px;
+    padding-bottom: 50px;
+}
+.sec-title-style1 .title {
+    position: relative;
+    display: block;
+    color: #131313;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.sec-title-style1 .text{
+    position: relative;
+    display: block;
+    margin: 7px 0 0;
+}
+.sec-title-style1 .text p{
+    position: relative;
+    display: inline-block;
+    padding: 0 15px;
+    color: #131313;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.sec-title-style1 .text .decor-left{
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    width: 70px;
+    height: 5px;
+    background: transparent;
+}
+.sec-title-style1 .text .decor-left span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 1px;
+    background: #FFA500;
+    content: "";
+    margin: 2px 0;
+}
+.sec-title-style1 .text .decor-left:before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 5px;
+    height: 5px;
+    background: #FFA500;
+    border-radius: 50%;
+    content: "";
+}
+.sec-title-style1 .text .decor-left:after{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    width: 5px;
+    height: 5px;
+    background: #FFA500;
+    border-radius: 50%;
+    content: "";
+}
+.contact-info-area {
+    margin-left: 18%;
+    position: relative;
+    display: block;
+    background: #ffffff;
+    width: 70%;
+}
+.contact-form {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 100px 60px 80px;
+    -webkit-box-shadow: 0px 3px 8px 2px #ededed; 
+    box-shadow: 0px 3px 8px 2px #ededed;
+    z-index: 3;
+}
+.contact-form form .input-box{
+    margin-left: 8%;
+    width: 80%;
+    position: relative;
+    display: block;
+}
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form textarea{
+    position: relative;
+    display: block;   
+    background: #ffffff;
+    border: 1px solid rgb(230, 228, 228);
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
+    padding-left: 19px;
+    padding-right: 15px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    transition: all 500ms ease;
+}
+.contact-form form textarea {
+    height: 130px;
+    padding-left: 19px;
+    padding-right: 15px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+}
+.contact-form form button {
+    margin-left: 40%;
+    display: block;
+    width: 20%;
+    background: #FFA500;
+    border: 1px solid #FFA500;
+    color: #131313;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+.contact-form form button:hover{
+    color: #ffffff;
+    background: #131313;
+}
+@media only screen and (max-width: 480px) {
+    .contact-info-area {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .contact-form {
+        padding: 50px 30px 40px;
+    }
+
+    .contact-form form .input-box {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .contact-form form button {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 720px) {
+    .contact-info-area {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .contact-form {
+        padding: 80px 40px 60px;
+    }
+
+    .contact-form form .input-box {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .contact-form form button {
+        margin-left: 30%;
+        width: 40%;
+    }
+}
+
+

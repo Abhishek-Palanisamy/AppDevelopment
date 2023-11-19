@@ -1,0 +1,130 @@
+.login-page1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .backgrnd {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../Images/Loginbg.jpg') center center / cover no-repeat;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: -1;
+  }
+  center h6{
+    font-size: 25px;
+  }
+  .login1 {
+    width: 25%;
+    background: #FFF;
+    padding: 25px;
+    box-shadow: 10px 10px 10px rgb(27, 26, 26);
+    border-radius: 2rem;
+    margin-right: auto; /* Center the container by pushing it to the left */
+    margin-left: 35%;
+  }
+  .borderbox{
+    outline: none;
+    border: 0;
+    background:none;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  .form-login1 {
+    padding-top: 7%;
+  }
+  
+  .form-login1 label {
+    font-size: 17px;
+    margin-left: 20px;
+    font-weight:bolder;
+  }
+  
+  .input-email,
+  .input-password {
+    background: #ededed;
+    border-radius: 25px;
+    margin: 6px 0 9px 0;
+    padding: 10px;
+    display: flex;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    border-radius: 25px;
+    padding: 14px;
+    background: #1e25aa;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding-left: 1%;
+  }
+  .icon1{
+    margin-top: 3px;
+  }
+  button:hover {
+    opacity: 0.9;
+  }
+  h5{
+    padding-top: 6%;
+    color: black;
+    font-size: 13px;
+  }
+  
+  /* Background image for screens larger than 768px */
+  @media (min-width: 769px) {
+    .login-page1 {
+      background-size: cover;
+    }
+    
+    .login1 {
+      background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to the login form */
+      backdrop-filter: blur(15px);
+    }
+    .backgrnd{
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .login-page1 {
+      background-size: cover; 
+    }
+ 
+    
+    .login1 {
+      width: 80%;
+      padding: 20px;
+      margin: 0 auto; /* Center the container for smaller screens */
+      background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to the login form */
+    }
+    .input-email,
+    .input-password {
+      margin: 6px 0;
+    }
+    
+    button {
+      margin-top: 20px;
+    }
+  }
+  .icon{
+  margin-inline: 2px;
+  margin-block:-5px ;
+  }

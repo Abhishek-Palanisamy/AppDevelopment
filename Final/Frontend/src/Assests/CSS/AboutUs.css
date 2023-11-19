@@ -1,0 +1,29 @@
+.containerabt{
+    margin-left: 1%;
+    margin-right: 10px;
+}
+.imgabt img {
+    margin-top: 4%;
+    height:130px; 
+    width:100%;
+    margin-bottom: 1%;
+}
+h1 {
+    text-align:center;
+     font-size: 40px; 
+     font-family:Serif; 
+     font-weight: strong;
+    }
+.abthead{
+    font-size: 25px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: 900;
+}
+.abt {
+    width: 100%;
+    font-family:Sans-Serif; 
+    text-align:left; 
+    font-size: 20px;
+    margin-left: 1%;
+}
